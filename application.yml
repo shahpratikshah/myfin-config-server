@@ -5,3 +5,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8761/eureka
     instance: localhost
+url:
+  authentication-base-url: http://localhost:9002/credentials/
+  registration-base-url: http://localhost:9001/users/
