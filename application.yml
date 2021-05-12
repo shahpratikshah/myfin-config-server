@@ -8,4 +8,5 @@ eureka:
 url:
   authentication-base-url: http://localhost:9002/credentials/
   registration-base-url: http://localhost:9001/users/
-  credentials-authenticate-base-url: http://localhost:9003/login/authenticate
+  credentials-authenticate-base-url: http://localhost:9002/credentials/authenticate/
+  login-base-url: http://localhost:9003/login/
